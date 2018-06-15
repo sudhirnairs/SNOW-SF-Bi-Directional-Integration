@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Incident Staging Table</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_50950_snow_sf_bi_incident_staging_table</name>
+        <number_ref display_value="INCST">e6744809db6e130035055ec0cf96192c</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-05 07:55:26</sys_created_on>
+        <sys_id>e604c009db6e130035055ec0cf9619be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Incident Staging Table</sys_name>
+        <sys_package display_value="SNOW SF Bi-Directional Integration" source="x_50950_snow_sf_bi">82deacf0db92530035055ec0cf961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW SF Bi-Directional Integration">82deacf0db92530035055ec0cf961913</sys_scope>
+        <sys_update_name>sys_db_object_e604c009db6e130035055ec0cf9619be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-05 07:55:27</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_50950_snow_sf_bi.incident_staging_table_user" name="x_50950_snow_sf_bi.incident_staging_table_user">96740809db6e130035055ec0cf9619b4</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

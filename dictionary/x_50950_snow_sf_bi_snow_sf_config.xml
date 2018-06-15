@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SNOW SF Config" max_length="40" name="x_50950_snow_sf_bi_snow_sf_config" type="collection">
+        <element label="SF Client ID" max_length="100" name="sf_client_id" type="string"/>
+        <element label="SF Client Secret" max_length="50" name="sf_client_secret" type="string"/>
+        <element label="SF Fields" max_length="300" name="sf_fields" type="string"/>
+        <element label="SF Grant Type" max_length="20" name="sf_grant_type" type="string"/>
+        <element label="SF Security Token" max_length="50" name="sf_security_token" type="string"/>
+        <element label="SF User ID" max_length="25" name="sf_user_id" type="string"/>
+        <element label="SF User Password" max_length="20" name="sf_user_password" type="string"/>
+        <element label="SF Login URL" mandatory="true" max_length="100" name="u_sf_login_url" type="string"/>
+    </element>
+</database>

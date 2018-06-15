@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Incident Staging Table" max_length="40" name="x_50950_snow_sf_bi_incident_staging_table" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Caller" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Configuration item" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element choice="1" label="Contact Type" max_length="40" name="contact_type" type="string">
+            <choice>
+                <element label="Email" sequence="100" value="email"/>
+                <element label="Phone" sequence="200" value="phone"/>
+                <element label="Self-service" sequence="300" value="self-service"/>
+                <element label="Walk-in" sequence="400" value="walk-in"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element choice="1" label="Impact" max_length="40" name="impact" type="integer">
+            <choice>
+                <element label="1 - High" sequence="1" value="1"/>
+                <element label="2 - Medium" sequence="2" value="2"/>
+                <element label="3 - Low" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opened by" max_length="32" name="opened_by" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="integer">
+            <choice>
+                <element label="1 - Critical" sequence="1" value="1"/>
+                <element label="2 - High" sequence="2" value="2"/>
+                <element label="3 - Moderate" sequence="3" value="3"/>
+                <element label="4 - Low" sequence="4" value="4"/>
+                <element label="5 - Planning" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="200" name="short_description" type="string"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element label="New" sequence="1" value="1"/>
+                <element label="In progress" sequence="2" value="2"/>
+                <element label="On Hold" sequence="3" value="3"/>
+                <element label="Resolved" sequence="6" value="6"/>
+                <element label="Closed" sequence="7" value="7"/>
+                <element label="Cancelled" sequence="8" value="8"/>
+            </choice>
+        </element>
+        <element choice="3" default="3" label="Urgency" max_length="40" name="urgency" type="integer">
+            <choice>
+                <element label="1 - High" sequence="1" value="1"/>
+                <element label="2 - Medium" sequence="2" value="2"/>
+                <element label="3 - Low" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index3">
+            <element name="opened_by"/>
+        </index>
+        <index name="index4">
+            <element name="caller_id"/>
+        </index>
+        <index name="index5">
+            <element name="company"/>
+        </index>
+        <index name="index6">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

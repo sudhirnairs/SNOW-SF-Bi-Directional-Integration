@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_sf_login_url" label="SF Login URL" language="en" table="x_50950_snow_sf_bi_snow_sf_config">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sf_login_url</element>
+            <help/>
+            <hint/>
+            <label>SF Login URL</label>
+            <language>en</language>
+            <name>x_50950_snow_sf_bi_snow_sf_config</name>
+            <plural>SF Login URLs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-23 07:11:36</sys_created_on>
+            <sys_id>a5cdf038dbd6530035055ec0cf9619fd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>SF Login URL</sys_name>
+            <sys_package display_value="SNOW SF Bi-Directional Integration" source="x_50950_snow_sf_bi">82deacf0db92530035055ec0cf961913</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNOW SF Bi-Directional Integration">82deacf0db92530035055ec0cf961913</sys_scope>
+            <sys_update_name>sys_documentation_x_50950_snow_sf_bi_snow_sf_config_u_sf_login_url_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-23 07:12:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

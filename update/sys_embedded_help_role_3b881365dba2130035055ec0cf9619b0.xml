@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sm_dispatcher" name="sm_dispatcher">d7bd6e90d7022100f212a3eb5e61032e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-07 12:39:00</sys_created_on>
+        <sys_id>3b881365dba2130035055ec0cf9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d7bd6e90d7022100f212a3eb5e61032e</sys_name>
+        <sys_package display_value="SNOW SF Bi-Directional Integration" source="x_50950_snow_sf_bi">82deacf0db92530035055ec0cf961913</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW SF Bi-Directional Integration">82deacf0db92530035055ec0cf961913</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3b881365dba2130035055ec0cf9619b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-07 12:39:00</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
